@@ -6,7 +6,7 @@ See sample-crontab to send the digest.
 
 
 ## Install
-First install the dependencies:
+clone the repository and then:
 
 ```bash
 yarn
@@ -14,6 +14,7 @@ yarn
 npm install
 ```
 
+If it complains that it cannot find axios, do the following:
 install axios:
 ```bash
 npm i axios vue-axios --save

@@ -14,6 +14,11 @@ yarn
 npm install
 ```
 
+install axios:
+```bash
+npm i axios vue-axios --save
+```
+
 This projects uses PHPMailer to send emails.
 
 The preferred way to install PHPMailer is with composer so if you don't have it you have to install it first:

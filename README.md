@@ -38,6 +38,8 @@ apt install sqlite3
 apt install php-sqlite3
 ```
 
+Adjust src/boot/axios.js to the right location
+
 ### development mode
 ```bash
 quasar dev

@@ -34,6 +34,8 @@ FROM	cfg
 		,	'value'=>$data['value']
 		];
         }
+	if(0==count($toret))
+		throw new Exception("Missing configuration");
 	return $toret;
 }
 
@@ -123,6 +125,7 @@ function main($argv, $argc) {
 try {
 	main ($argv, $argc);
 } catch (Throwable $e){
+	print "Error!\n".$e->getMessage()."\n";
 	debug_print_backtrace();
 }
 

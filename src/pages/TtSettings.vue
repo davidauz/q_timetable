@@ -188,7 +188,7 @@ console.log(key);
 			this.successMsg= "Configuration saved"
 		}
 		, async test_connection(){
-			this.successMsg= "Wait while testing..."
+			this.successMsg= "Sending test email..."
 try {
 			await api.post('ajx_functs.php', { func:'test_connection' }); 
 }catch (e) {

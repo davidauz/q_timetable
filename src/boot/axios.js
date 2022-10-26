@@ -2,7 +2,8 @@
 import { boot } from 'quasar/wrappers'
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'http://192.168.1.175/scad_q/' })
+const api = axios.create({ baseURL: 'http://my.awesome.server.com/q_timetable/' })
+// you may need to adjust the URL above
 
 export default boot(({ app }) => {
   // for use inside Vue files (Options API) through this.$axios and this.$api

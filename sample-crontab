@@ -1,0 +1,17 @@
+# m h  dom mon dow   command
+#+-minute 0-59
+#|
+#|  +-hour 0-23
+#|  |
+#|  | +-day of month 1-31
+#|  | |
+#|  | | +-month 1-12 (or names)
+#|  | | |
+#|  | | | +-day of week 0-7 (0 or 7 is Sun, or use names)
+#|  | | | |
+
+# Every day at 08:00 in the morning
+00  8 * * * ( cd /var/www/q_timetable ; php crontab_job.php ) >/dev/null 2>&1
+
+# Every Monday at 08:00 in the morning
+00  8 * * 1 ( cd /var/www/q_timetable ; php crontab_job.php ) >/dev/null 2>&1

@@ -49,3 +49,4 @@ quasar dev
 ```bash
 quasar build
 ```
+ths will create a production ready copy of theproject in the 'dist' folder.

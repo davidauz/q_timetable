@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<!--
+This HTML file is used by the Vue.js build process to generate the final index.html file that is served to the client.
+Here is defined the basic HTML structure for the application.
+During the build process tags like <title> hold placeholders are replaced with
+values based on the project's configuration and build settings, and the
+resulting file is saved as index.html.
+The file name and location can be changed in vue.config.js
+-->
   <head>
     <title><%= productName %></title>
 
@@ -18,5 +26,9 @@
   <body>
     <!-- DO NOT touch the following DIV -->
     <div id="q-app"></div>
+<!--
+the q-app div is the root element of the application.
+It is mandatory, it contains the entire Quasar application and its child components.
+-->
   </body>
 </html>

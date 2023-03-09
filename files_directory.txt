@@ -1,0 +1,35 @@
+# package.json: created by npm, holdsmetadata about the project (project name,
+  version, author, license), dependencies (libraries and packages required by
+  the project) and scripts (commands to run tasks such as building or testing
+  the project).
+
+# package-lock.json also created by npm, lists the version, dependencies and
+  origin of each installed package.  Keeps track of the exact same dependencies
+  on every machine it runs on ("locks" them down)
+
+# src folder: source code for the application: JavaScript, CSS, and assets (such
+  as images)
+
+# src/main.js  main entry point for the application
+
+# node_modules folder: all of the project's dependencies installed by npm
+
+# babel.config.js: configuration for Babel
+
+# webpack.config.js: configuration for Webpack (used by Vue CLI)
+
+# composer.json: configuration file for COmposer
+
+# composer.lock: list of packages, their versions and dependencies created by
+  Composer (PHP dependency manager)
+
+# jsconfig.json: used to specify settings and options for the JavaScript
+  language service, which is used by editors and IDEs to provide code
+  completion, syntax highlighting, and other features
+
+# eslintrc.js: configuration file for ESLint (tool to find and fix coding
+  issues JavaScript code)
+
+# quasar.config.js: configuration for Quasar Framework, to configure and
+  customize things like the build process, development server settings, the
+  Quasar CLI

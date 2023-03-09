@@ -1,4 +1,4 @@
-
+// Axios is a JavaScript library used to make HTTP requests from web browsers and Node.js applications.
 import { boot } from 'quasar/wrappers'
 import axios from 'axios'
 

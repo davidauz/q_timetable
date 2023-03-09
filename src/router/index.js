@@ -1,3 +1,12 @@
+/*
+the 'Router' is a JavaScript library for creating single-page applications with
+multiple views, each with its own URL.
+The Vue Router library provides a way to map URLs to components and manage the
+navigation between those components.
+It is thus possible to navigate between different views without a full page reload.
+Instead, the router updates the URL and dynamically renders the appropriate
+component in response to the user's actions.
+*/
 import { route } from 'quasar/wrappers'
 import { createRouter, createMemoryHistory, createWebHistory, createWebHashHistory } from 'vue-router'
 import routes from './routes'
